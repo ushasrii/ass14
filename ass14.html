@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated X Shape</title>
+  <style>
+    body{
+        display: flex;
+        background-color: lavender;
+        margin-top:10%;
+        margin-left:30%
+        
+    }
+    .box{
+        border-radius: 50px;
+        border:1px solid;
+        height:100px;
+        width:100px;
+        animation-name:usha;
+        animation-duration:10s;
+        position:relative;
+        animation-iteration-count:infinite;
+        animation-timing-function: linear;
+       
+        
+    }
+    @keyframes usha{
+           0%{background-color: brown; left:0px;top:0px}
+           25%{background-color:green;left:400px;top:400px;}
+           50%{background-color: black;left:400px;top:0px}
+           75%{background-color: yellow;left:0px;top:400px}
+           100%{background-color: blue;left:0px;top:0px}
+        }
+    
+  </style>
+</head>
+<body >
+  <div class="box">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.vrbopt9dj0VSm784eXvGzAHaHa&pid=Api&P=0&h=180" width="70%" style="border-radius: 50%;padding-left: 20px;padding-top:20px"/>
+  </div>
+</body>
+</html>
